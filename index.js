@@ -1,12 +1,12 @@
 const perguntas = [
   {
-    pergunta: "Qual equipe da NBA Stephen Curry representa?",
+    pergunta: "Quem e o GOT do basquete segundo Diego seu amigo",
     resposta: [
-      "Los Angeles Lakers",
-      "Golden State Warriors",
-      "Houston Rockets"
+      "Lebron James",
+      "Stephen Curry",
+      "Ja Morrant"
     ],
-    correta: 1
+    correta: 0
   },
   {
     pergunta: "Quantos títulos da NBA Stephen Curry conquistou até agora?",
@@ -65,9 +65,9 @@ const perguntas = [
   {
     pergunta: "Qual é a idade de Stephen Curry em 2024?",
     resposta: [
-      "30 anos",
+      "33 anos",
       "35 anos",
-      "40 anos"
+      "36 anos"
     ],
     correta: 1
   },
@@ -83,9 +83,9 @@ const perguntas = [
   {
     pergunta: "Qual foi a posição de Stephen Curry no Draft da NBA em que foi selecionado?",
     resposta: [
-      "1ª escolha geral",
+      "4ª escolha geral",
       "5ª escolha geral",
-      "10ª escolha geral"
+      "8ª escolha geral"
     ],
     correta: 1
   }
