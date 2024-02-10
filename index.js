@@ -1,95 +1,99 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a sintaxe correta para se referir a um elemento HTML com o ID 'exemplo' em JavaScript?",
-      resposta: [
-        "getElementByName('exemplo')",
-        "document.querySelector('#exemplo')",
-        "document.getElementById('exemplo')"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual método é usado para imprimir algo no console do navegador em JavaScript?",
-      resposta: [
-        "console.print()",
-        "print()",
-        "console.log()"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      resposta: [
-        "v carName;",
-        "variable carName;",
-        "var carName;"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do método 'addEventListener' em JavaScript?",
-      resposta: [
-        "Adiciona um elemento HTML ao documento",
-        "Executa uma função quando um evento ocorre",
-        "Remove um ouvinte de evento do elemento"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o operador '===' faz em JavaScript?",
-      resposta: [
-        "Verifica se dois valores são idênticos",
-        "Verifica se dois valores são do mesmo tipo e valor",
-        "Atribui um valor a uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'querySelectorAll' em JavaScript?",
-      resposta: [
-        "Seleciona todos os elementos com o mesmo ID",
-        "Seleciona todos os elementos com a mesma classe",
-        "Seleciona todos os elementos que correspondem a um seletor CSS"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'push()' faz em um array JavaScript?",
-      resposta: [
-        "Remove o último elemento do array",
-        "Adiciona um novo elemento ao início do array",
-        "Adiciona um novo elemento ao final do array"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a sintaxe correta para um comentário de uma linha em JavaScript?",
-      resposta: [
-        "// Este é um comentário",
-        "<!-- Este é um comentário -->",
-        "/* Este é um comentário */"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'toFixed()' faz em JavaScript?",
-      resposta: [
-        "Remove os decimais de um número",
-        "Arredonda um número para o inteiro mais próximo",
-        "Formata um número com um número específico de casas decimais"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
-      resposta: [
-        "Retorna o tipo de uma variável ou expressão",
-        "Compara dois valores",
-        "Converte um valor para o tipo especificado"
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "Qual equipe da NBA Stephen Curry representa?",
+    resposta: [
+      "Los Angeles Lakers",
+      "Golden State Warriors",
+      "Houston Rockets"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quantos títulos da NBA Stephen Curry conquistou até agora?",
+    resposta: [
+      "3",
+      "4",
+      "5"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a posição principal de Stephen Curry na NBA?",
+    resposta: [
+      "Ala-armador",
+      "Pivô",
+      "Armador"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Em qual universidade Stephen Curry jogou durante o período universitário?",
+    resposta: [
+      "University of North Carolina",
+      "Duke University",
+      "Davidson College"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o apelido de Stephen Curry com seus colegas de equipe?",
+    resposta: [
+      "Chef Curry",
+      "King Curry",
+      "MVP Curry"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantas vezes Stephen Curry foi nomeado MVP da temporada regular da NBA?",
+    resposta: [
+      "1",
+      "2",
+      "3"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o recorde de mais cestas de 3 pontos feitas em uma única temporada da NBA, estabelecido por Stephen Curry?",
+    resposta: [
+      "200",
+      "272",
+      "402"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a idade de Stephen Curry em 2024?",
+    resposta: [
+      "30 anos",
+      "35 anos",
+      "40 anos"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quantos irmãos Stephen Curry tem que também jogaram na NBA?",
+    resposta: [
+      "Nenhum",
+      "1",
+      "2"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual foi a posição de Stephen Curry no Draft da NBA em que foi selecionado?",
+    resposta: [
+      "1ª escolha geral",
+      "5ª escolha geral",
+      "10ª escolha geral"
+    ],
+    correta: 1
+  }
+];
+
+// Exemplo de acesso à primeira pergunta
+console.log(perguntas[0]);
+
   
   const quiz = document.getElementById('quiz')
   const template = document.querySelector('template')
